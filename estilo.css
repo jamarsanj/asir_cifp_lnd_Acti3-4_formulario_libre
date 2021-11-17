@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 250, 205);
+    align-items: center;
+    align-content: center;
+}
+header {
+    text-align: center;
+}
+div {
+    width: 50%;
+    height: auto;
+    align-self: center;
+}
+form {
+    width: auto;
+    height: auto;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+textarea {
+    text-align: left;
+    align-self: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
